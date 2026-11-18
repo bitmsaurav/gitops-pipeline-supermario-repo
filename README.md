@@ -4,9 +4,9 @@ Modified for Learning GitOps Pipeline
 2) Open in Visual Studio Code
 3) Add GitHub Actions to integrate SonarQube 
 4) Create a Project in SonarQube
-5) Create a sonar-project.properties file in your repo in Visual Studio Code and add Project Key from SonarQube
+5) Create a sonar-project.properties file in your repo in Visual Studio Code and add Project Key(gitopsdevsecopspipeline)when we creat a project in sonarqube from SonarQube
 6) Create a Security Token in SonarQube
-7) Create SONAR_HOST_URL and SONAR_TOKEN repository secrets in your GitHub Repo
+7) Create SONAR_HOST_URL(http://ec2-34-216-185-57.us-west-2.compute.amazonaws.com:9000/) and SONAR_TOKEN(sqp_c6d55242ad3b74757d30e2cdeec909fba03a9d00) repository secrets in your GitHub Repo
 8) Push GitHub Actions code to GitHub Repo
 9) Verify that SonarQube SAST analysis runs successfully on SuperMarioGame in GitOps pipeline 
 ## Overview
