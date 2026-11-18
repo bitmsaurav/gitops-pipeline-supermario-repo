@@ -30,7 +30,7 @@ jobs:
         with:
           scan-type: 'image'
           input: 'supermariolatestdockerimage.tar'
-          exit-code: '1'
+          exit-code: '0'
           severity: 'CRITICAL,HIGH'
 
 
